@@ -56,8 +56,7 @@ $(()=>{
 	})
 	.always(()=>{
 		console.log("menu data can't load");
-	});
-	
+	});	
 	//$("#moonflowers p").remove();
 	const $moonflowers =$("#moonflowers")
 	
@@ -85,7 +84,7 @@ $(()=>{
 			//$("#specials").append(`<div><p>${moonflowers.code} ${moonflowers.desc} ${moonflowers.img}</p></div>`)
 			
 			});
-		
+	
 		}
 	
 		function addstafftopage(staffArray){
